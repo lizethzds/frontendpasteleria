@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("frontendpasteleria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adf6244d5c497293202c446db7b3ba5db77cdc77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba27fa89e45dc5953a8775471bbf025f1481b036")]
 [assembly: System.Reflection.AssemblyProductAttribute("frontendpasteleria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frontendpasteleria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -76,7 +76,7 @@ public class ProductosController(ProductosClientServer productos,
             }
         }
 
-        await PeliculasDropDownListAsync();       
+        await ProductosDropDownListAsync();       
         ModelState.AddModelError("Nombre", "No ha sido posible realizar la acción. Inténtelo nuevamente.");
         return View(itemToCreate);
     }
@@ -84,11 +84,11 @@ public class ProductosController(ProductosClientServer productos,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> EditarAsync(int id)
     {
-        Pelicula? itemToEdit = null;
+        Producto? itemToEdit = null;
         ViewBag.Url = configuration["UrlWebAPI"];
         try
         {
-            itemToEdit = await peliculas.GetAsync(id);
+            itemToEdit = await productos.GetAsync(id);
             if (itemToEdit == null) return NotFound();
         }
         catch (HttpRequestException ex)
@@ -96,22 +96,22 @@ public class ProductosController(ProductosClientServer productos,
             if (ex.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 return RedirectToAction("Salir", "Auth");
         }
-        await PeliculasDropDownListAsync();
+        await ProductosDropDownListAsync();
         return View(itemToEdit);
     }
 
     [HttpPost]
     [Authorize(Roles = "Administrador")]
-    public async Task<IActionResult> EditarAsync(int id, Pelicula itemToEdit)
+    public async Task<IActionResult> EditarAsync(int id, Producto itemToEdit)
     {
-        if (id != itemToEdit.PeliculaId) return NotFound();
+        if (id != itemToEdit.IdProducto) return NotFound();
 
         ViewBag.Url = configuration["UrlWebAPI"];
         if (ModelState.IsValid)
         {
             try
             {
-                await peliculas.PutAsync(itemToEdit);
+                await productos.PutAsync(itemToEdit);
                 return RedirectToAction(nameof(Index));
             }
             catch (HttpRequestException ex)
@@ -120,7 +120,7 @@ public class ProductosController(ProductosClientServer productos,
                     return RedirectToAction("Salir", "Auth");
             }
         }
-        await PeliculasDropDownListAsync();
+        await ProductosDropDownListAsync();
         ModelState.AddModelError("Nombre", "No ha sido posible realizar la acción. Inténtelo nuevamente.");
         return View(itemToEdit);
     }
@@ -128,10 +128,10 @@ public class ProductosController(ProductosClientServer productos,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> Eliminar(int id, bool? showError = false)
     {
-        Pelicula? itemToDelete = null;
+        Producto? itemToDelete = null;
         try
         {
-            itemToDelete = await peliculas.GetAsync(id);
+            itemToDelete = await productos.GetAsync(id);
             if (itemToDelete == null) return NotFound();
 
             if (showError.GetValueOrDefault())
@@ -155,7 +155,7 @@ public class ProductosController(ProductosClientServer productos,
         {
             try
             {
-                await peliculas.DeleteAsync(id);
+                await productos.DeleteAsync(id);
                 return RedirectToAction(nameof(Index));
             }
             catch (HttpRequestException ex)
@@ -180,10 +180,10 @@ public class ProductosController(ProductosClientServer productos,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> Categorias(int id)
     {
-        Pelicula? itemToView = null;
+        Producto? itemToView = null;
         try
         {
-            itemToView = await peliculas.GetAsync(id);
+            itemToView = await productos.GetAsync(id);
             if (itemToView == null) return NotFound();
         }
         catch (HttpRequestException ex)
@@ -191,10 +191,12 @@ public class ProductosController(ProductosClientServer productos,
             if (ex.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 return RedirectToAction("Salir", "Auth");
         }
-        ViewData["PeliculaId"] = itemToView?.PeliculaId;
+        ViewData["PeliculaId"] = itemToView?.IdProducto;
         return View(itemToView);
     }
 
+
+//Revisión
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> CategoriasAgregar(int id)
     {
@@ -219,7 +221,7 @@ public class ProductosController(ProductosClientServer productos,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> CategoriasAgregar(int id, int categoriaid)
     {
-        Pelicula? pelicula = null;
+        Producto? pelicula = null;
         if (ModelState.IsValid)
         {
             try
