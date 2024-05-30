@@ -2,33 +2,33 @@ using frontendnet.Models;
 
 namespace frontendnet.Services;
 
-public class PeliculasClientService(HttpClient client)
+public class ProductosClientServer(HttpClient client)
 {
-    public async Task<List<Pelicula>?> GetAsync(string? search)
+    public async Task<List<Producto>?> GetAsync(string? search)
     {
-        return await client.GetFromJsonAsync<List<Pelicula>>($"api/peliculas?s={search}");
+        return await client.GetFromJsonAsync<List<Producto>>($"api/productos?s={search}");
     }
 
-    public async Task<Pelicula?> GetAsync(int id)
+    public async Task<Producto?> GetAsync(int id)
     {
-        return await client.GetFromJsonAsync<Pelicula>($"api/peliculas/{id}");
+        return await client.GetFromJsonAsync<Producto>($"api/productos/{id}");
     }
 
-    public async Task<bool> PostAsync(Pelicula pelicula)
+    public async Task<bool> PostAsync(Producto pelicula)
     {
-        var response = await client.PostAsJsonAsync($"api/peliculas", pelicula);
+        var response = await client.PostAsJsonAsync($"api/productos", pelicula);
         return response.IsSuccessStatusCode;
     }
 
-    public async Task<bool> PutAsync(Pelicula pelicula)
+    public async Task<bool> PutAsync(Producto producto)
     {
-        var response = await client.PutAsJsonAsync($"api/peliculas/{pelicula.PeliculaId}", pelicula);
+        var response = await client.PutAsJsonAsync($"api/productos/{producto.IdProducto}", producto);
         return response.IsSuccessStatusCode;
     }
 
     public async Task<bool> DeleteAsync(int id)
     {
-        var response = await client.DeleteAsync($"api/peliculas/{id}");
+        var response = await client.DeleteAsync($"api/productos/{id}");
         return response.IsSuccessStatusCode;
     }
 

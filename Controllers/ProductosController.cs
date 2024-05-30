@@ -8,17 +8,17 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace frontendnet;
 
 [Authorize(Roles = "Administrador, Usuario")]
-public class PeliculasController(PeliculasClientService peliculas,
+public class ProductosController(ProductosClientServer productos,
         CategoriasClientService categorias,
         ArchivosClientService archivos,
         IConfiguration configuration) : Controller
 {
     public async Task<IActionResult> Index(string? s)
     {
-        List<Pelicula>? lista = [];
+        List<Producto>? lista = [];
         try
         {
-            lista = await peliculas.GetAsync(s);
+            lista = await productos.GetAsync(s);
         }
         catch (HttpRequestException ex)
         {
@@ -35,11 +35,11 @@ public class PeliculasController(PeliculasClientService peliculas,
 
     public async Task<IActionResult> Detalle(int id)
     {
-        Pelicula? item = null;
+        Producto? item = null;
         ViewBag.Url = configuration["UrlWebAPI"];
         try
         {
-            item = await peliculas.GetAsync(id);
+            item = await productos.GetAsync(id);
             if (item == null) return NotFound();
         }
         catch (HttpRequestException ex)
@@ -53,20 +53,20 @@ public class PeliculasController(PeliculasClientService peliculas,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> Crear()
     {
-        await PeliculasDropDownListAsync();
+        await ProductosDropDownListAsync();
         return View();
     }
 
     [HttpPost]
     [Authorize(Roles = "Administrador")]
-    public async Task<IActionResult> CrearAsync(Pelicula itemToCreate)
+    public async Task<IActionResult> CrearAsync(Producto itemToCreate)
     {
         ViewBag.Url = configuration["UrlWebAPI"];
         if (ModelState.IsValid)
         {
             try
             {
-                await peliculas.PostAsync(itemToCreate);
+                await productos.PostAsync(itemToCreate);
                 return RedirectToAction(nameof(Index));
             }
             catch (HttpRequestException ex)
@@ -278,7 +278,7 @@ public class PeliculasController(PeliculasClientService peliculas,
         {
             try
             {
-                await peliculas.DeleteAsync(id, categoriaid);
+                await productos.DeleteAsync(id, categoriaid);
                 return RedirectToAction(nameof(Categorias), new { id });
             }
             catch (HttpRequestException ex)
@@ -297,7 +297,7 @@ public class PeliculasController(PeliculasClientService peliculas,
         ViewBag.Categoria = new SelectList(listado, "CategoriaId", "Nombre", itemSeleccionado);
     }
 
-    private async Task PeliculasDropDownListAsync(object? itemSeleccionado = null)
+    private async Task Productos(object? itemSeleccionado = null)
     {
         var listado = await archivos.GetAsync();
         ViewBag.Archivo = new SelectList(listado, "ArchivoId", "Nombre", itemSeleccionado);

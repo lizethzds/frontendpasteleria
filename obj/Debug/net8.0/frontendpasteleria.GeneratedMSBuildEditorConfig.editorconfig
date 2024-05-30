@@ -9,151 +9,151 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = frontendpasteleria
 build_property.RootNamespace = frontendpasteleria
-build_property.ProjectDir = C:\Users\brand\OneDrive\Documentos\frontendpasteleria\
+build_property.ProjectDir = C:\codigo\proyecto\frontendpasteleria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\brand\OneDrive\Documentos\frontendpasteleria
+build_property.MSBuildProjectDirectory = C:\codigo\proyecto\frontendpasteleria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Archivos/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Archivos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Auth/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Bitacora/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Bitacora/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQml0YWNvcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/Crear.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/Detalle.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/Editar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/Eliminar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFbGltaW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Categorias/_DetallePartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Categorias/_DetallePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xfRGV0YWxsZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Home/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Perfil/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Perfil/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Categorias.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Categorias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/CategoriasAgregar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/CategoriasAgregar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXNBZ3JlZ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/CategoriasRemover.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/CategoriasRemover.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhdGVnb3JpYXNSZW1vdmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Crear.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Detalle.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFsbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Editar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Eliminar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/_CardPartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/_CardPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXF9DYXJkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Productos/_CategoriasListadoPartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Productos/_CategoriasListadoPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXF9DYXRlZ29yaWFzTGlzdGFkb1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/AccessDenied.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/Error.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/_Layout.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/_MenuDerPartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/_MenuDerPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51RGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/_MenuIzqPartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/_MenuIzqPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51SXpxUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/Crear.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/Detalle.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/Editar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/Eliminar.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/Index.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/Usuarios/_DetallePartial.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/Usuarios/_DetallePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcX0RldGFsbGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/_ViewImports.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/brand/OneDrive/Documentos/frontendpasteleria/Views/_ViewStart.cshtml]
+[C:/codigo/proyecto/frontendpasteleria/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
