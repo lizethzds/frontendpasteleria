@@ -22,7 +22,7 @@ public class ProductosClientServer(HttpClient client)
 
     public async Task<bool> PutAsync(Producto producto)
     {
-        var response = await client.PutAsJsonAsync($"api/productos/{producto.IdProducto}", producto);
+        var response = await client.PutAsJsonAsync($"api/productos/{producto.ProductoId}", producto);
         return response.IsSuccessStatusCode;
     }
 

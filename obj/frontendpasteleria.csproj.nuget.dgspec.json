@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj": {}
+    "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj": {
+    "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj",
+        "projectUniqueName": "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj",
         "projectName": "frontendpasteleria",
-        "projectPath": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj",
-        "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\obj\\",
+        "projectPath": "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj",
+        "packagesPath": "C:\\Users\\lizet\\.nuget\\packages\\",
+        "outputPath": "C:\\codigo\\proyecto\\frontendpasteleria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lizet\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

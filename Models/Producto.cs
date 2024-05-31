@@ -7,7 +7,7 @@ namespace frontendnet.Models
     public class Producto
     {
         [Display(Name = "ID Producto")]
-        public int? IdProducto { get; set; }
+        public int? ProductoId { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         public required string Nombre { get; set; }

@@ -104,7 +104,7 @@ public class ProductosController(ProductosClientServer productos,
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> EditarAsync(int id, Producto itemToEdit)
     {
-        if (id != itemToEdit.IdProducto) return NotFound();
+        if (id != itemToEdit.ProductoId) return NotFound();
 
         ViewBag.Url = configuration["UrlWebAPI"];
         if (ModelState.IsValid)
@@ -191,7 +191,7 @@ public class ProductosController(ProductosClientServer productos,
             if (ex.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 return RedirectToAction("Salir", "Auth");
         }
-        ViewData["ProductoId"] = itemToView?.IdProducto;//a tener en cuenta
+        ViewData["ProductoId"] = itemToView?.ProductoId;//a tener en cuenta
         return View(itemToView);
     }
 

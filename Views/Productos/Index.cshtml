@@ -38,7 +38,7 @@
             <thead class="text-center">
                 <tr>
                     <th width="1">
-                        @Html.DisplayNameFor(model => model.First().IdProducto)
+                        @Html.DisplayNameFor(model => model.First().ProductoId)
                     </th>
                     <th width="1">
                         @Html.DisplayNameFor(model => model.First().ArchivoId)
@@ -63,7 +63,7 @@
                 {
                     <tr>
                         <td>
-                            @Html.DisplayFor(modelItem => item.IdProducto)
+                            @Html.DisplayFor(modelItem => item.ProductoId)
                         </td>
                         <td class="text-center" width="1">
                             <img src='@((item.ArchivoId == null) ? "https://via.placeholder.com/27x40" : $"{ViewBag.Url}/api/archivos/{item.ArchivoId}")'
@@ -80,21 +80,21 @@
                         </td>
                         <td width="1">
                             <a class="text-decoration-none small text-uppercase" asp-action="Detalle"
-                                asp-route-id="@item.IdProducto">Detalle</a>
+                                asp-route-id="@item.ProductoId">Detalle</a>
                         </td>
                         @if (ViewBag.SoloAdmin == true)
                         {
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Categorias"
-                                    asp-route-id="@item.IdProducto">Categorías</a>
+                                    asp-route-id="@item.ProductoId">Categorías</a>
                             </td>
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Editar"
-                                    asp-route-id="@item.IdProducto">Editar</a>
+                                    asp-route-id="@item.ProductoId">Editar</a>
                             </td>
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Eliminar"
-                                    asp-route-id="@item.IdProducto">Eliminar</a>
+                                    asp-route-id="@item.ProductoId">Eliminar</a>
                             </td>
                         }
                     </tr>
