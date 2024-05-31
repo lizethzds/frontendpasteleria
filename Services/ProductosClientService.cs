@@ -14,9 +14,9 @@ public class ProductosClientServer(HttpClient client)
         return await client.GetFromJsonAsync<Producto>($"api/productos/{id}");
     }
 
-    public async Task<bool> PostAsync(Producto pelicula)
+    public async Task<bool> PostAsync(Producto producto)
     {
-        var response = await client.PostAsJsonAsync($"api/productos", pelicula);
+        var response = await client.PostAsJsonAsync($"api/productos", producto);
         return response.IsSuccessStatusCode;
     }
 

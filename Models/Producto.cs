@@ -17,11 +17,14 @@ namespace frontendnet.Models
         [Range(0.01, double.MaxValue, ErrorMessage = "El valor del campo {0} debe ser mayor que {1}.")]
         [Display(Name = "Precio")]
         public float Precio { get; set; }
-
+//
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         [DataType(DataType.MultilineText)]
         [Display(Name = "Descripción")]
         public string Descripcion { get; set; } = "Sin descripción";
+
+        [Display(Name = "Foto")]
+        public int? ArchivoId { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         [ForeignKey("Categoria")]

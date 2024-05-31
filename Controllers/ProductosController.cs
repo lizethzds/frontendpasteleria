@@ -167,12 +167,12 @@ public class ProductosController(ProductosClientServer productos,
         // En caso de error
         return RedirectToAction(nameof(Eliminar), new { id, showError = true });
     }
-
+//cuestion de imagenes de los productos
     [AcceptVerbs("GET", "POST")]
     [Authorize(Roles = "Administrador")]
-    public IActionResult ValidaPoster(string Poster)
+    public IActionResult ValidaFoto(string Foto)
     {
-        if (Uri.IsWellFormedUriString(Poster, UriKind.Absolute) || Poster.Equals("N/A"))
+        if (Uri.IsWellFormedUriString(Foto, UriKind.Absolute) || Foto.Equals("N/A"))
             return Json(true);
         return Json(false);
     }
@@ -191,12 +191,12 @@ public class ProductosController(ProductosClientServer productos,
             if (ex.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 return RedirectToAction("Salir", "Auth");
         }
-        ViewData["PeliculaId"] = itemToView?.IdProducto;
+        ViewData["ProductoId"] = itemToView?.IdProducto;//a tener en cuenta
         return View(itemToView);
     }
 
 
-//Revisión
+/*/Revisión
     [Authorize(Roles = "Administrador")]
     public async Task<IActionResult> CategoriasAgregar(int id)
     {
@@ -292,14 +292,14 @@ public class ProductosController(ProductosClientServer productos,
         // En caso de error
         return RedirectToAction(nameof(CategoriasRemover), new { id, categoriaid, showError = true });
     }
-
+*/
     private async Task CategoriasDropDownListAsync(object? itemSeleccionado = null)
     {
         var listado = await categorias.GetAsync();
         ViewBag.Categoria = new SelectList(listado, "CategoriaId", "Nombre", itemSeleccionado);
     }
 
-    private async Task Productos(object? itemSeleccionado = null)
+    private async Task ProductosDropDownListAsync(object? itemSeleccionado = null)
     {
         var listado = await archivos.GetAsync();
         ViewBag.Archivo = new SelectList(listado, "ArchivoId", "Nombre", itemSeleccionado);

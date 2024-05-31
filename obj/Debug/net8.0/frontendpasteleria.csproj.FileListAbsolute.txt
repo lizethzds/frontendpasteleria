@@ -26,3 +26,4 @@ C:\Users\brand\OneDrive\Documentos\frontendpasteleria\obj\Debug\net8.0\frontendp
 C:\Users\brand\OneDrive\Documentos\frontendpasteleria\obj\Debug\net8.0\ref\frontendpasteleria.dll
 C:\Users\brand\OneDrive\Documentos\frontendpasteleria\obj\Debug\net8.0\frontendpasteleria.RazorAssemblyInfo.cache
 C:\Users\brand\OneDrive\Documentos\frontendpasteleria\obj\Debug\net8.0\frontendpasteleria.RazorAssemblyInfo.cs
+C:\Users\brand\OneDrive\Documentos\frontendpasteleria\bin\Debug\net8.0\frontendpasteleria.staticwebassets.runtime.json

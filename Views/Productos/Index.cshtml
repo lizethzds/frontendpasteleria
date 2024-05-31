@@ -1,6 +1,6 @@
-@model List<Pelicula>
+@model List<Producto>
 @{
-    ViewData["Title"] = "Películas";
+    ViewData["Title"] = "Producto";
     ViewData["SubTitle"] = "Listado";
 }
 <nav aria-label="breadcrumb">
@@ -38,16 +38,16 @@
             <thead class="text-center">
                 <tr>
                     <th width="1">
-                        @Html.DisplayNameFor(model => model.First().PeliculaId)
+                        @Html.DisplayNameFor(model => model.First().IdProducto)
                     </th>
                     <th width="1">
                         @Html.DisplayNameFor(model => model.First().ArchivoId)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().Titulo)
+                        @Html.DisplayNameFor(model => model.First().Nombre)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().Anio)
+                        @Html.DisplayNameFor(model => model.First().Precio)
                     </th>
                     <th></th>
                     @if (ViewBag.SoloAdmin == true)
@@ -63,41 +63,38 @@
                 {
                     <tr>
                         <td>
-                            @Html.DisplayFor(modelItem => item.PeliculaId)
+                            @Html.DisplayFor(modelItem => item.IdProducto)
                         </td>
                         <td class="text-center" width="1">
                             <img src='@((item.ArchivoId == null) ? "https://via.placeholder.com/27x40" : $"{ViewBag.Url}/api/archivos/{item.ArchivoId}")'
-                                alt="@item.Titulo" class="img-fluid img-thumbnail" style="max-height: 40px;">
+                                alt="@item.Nombre" class="img-fluid img-thumbnail" style="max-height: 40px;">
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Titulo)<br />
+                            @Html.DisplayFor(modelItem => item.Nombre)<br />
                             <span class="text-secondary-emphasis small d-none d-md-block">@Html.DisplayFor(modelItem =>
-                        item.Sinopsis)</span><br />
-                            @foreach (var cat in item.Categorias!)
-                            {
-                                <span class="badge rounded-pill text-bg-secondary">@cat.Nombre</span>
-                            }
+                        item.Descripcion)</span><br />
+                            
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Anio)
+                            @Html.DisplayFor(modelItem => item.Precio)
                         </td>
                         <td width="1">
                             <a class="text-decoration-none small text-uppercase" asp-action="Detalle"
-                                asp-route-id="@item.PeliculaId">Detalle</a>
+                                asp-route-id="@item.IdProducto">Detalle</a>
                         </td>
                         @if (ViewBag.SoloAdmin == true)
                         {
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Categorias"
-                                    asp-route-id="@item.PeliculaId">Categorías</a>
+                                    asp-route-id="@item.IdProducto">Categorías</a>
                             </td>
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Editar"
-                                    asp-route-id="@item.PeliculaId">Editar</a>
+                                    asp-route-id="@item.IdProducto">Editar</a>
                             </td>
                             <td width="1">
                                 <a class="text-decoration-none small text-uppercase" asp-action="Eliminar"
-                                    asp-route-id="@item.PeliculaId">Eliminar</a>
+                                    asp-route-id="@item.IdProducto">Eliminar</a>
                             </td>
                         }
                     </tr>

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\guest.css",
+      "PackagePath": "staticwebassets\\css\\guest.css"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\fondo.jpg",
+      "PackagePath": "staticwebassets\\images\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\cambio_tema.js",
+      "PackagePath": "staticwebassets\\js\\cambio_tema.js"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\pelicula_portada.js",
+      "PackagePath": "staticwebassets\\js\\pelicula_portada.js"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\portada.js",
+      "PackagePath": "staticwebassets\\js\\portada.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.frontendpasteleria.props",
+      "PackagePath": "build\\frontendpasteleria.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.frontendpasteleria.props",
+      "PackagePath": "buildMultiTargeting\\frontendpasteleria.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.frontendpasteleria.props",
+      "PackagePath": "buildTransitive\\frontendpasteleria.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.frontendpasteleria.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

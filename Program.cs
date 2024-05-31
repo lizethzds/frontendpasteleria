@@ -23,7 +23,7 @@ builder.Services.AddHttpClient<UsuariosClientService>(httpClient => { httpClient
 builder.Services.AddHttpClient<RolesClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebAPI!); })
     .AddHttpMessageHandler<EnviaBearerDelegatingHandler>()
     .AddHttpMessageHandler<RefrescaTokenDelegatingHandler>();
-builder.Services.AddHttpClient<PeliculasClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebAPI!); })
+builder.Services.AddHttpClient<ProductosClientServer>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebAPI!); })
     .AddHttpMessageHandler<EnviaBearerDelegatingHandler>()
     .AddHttpMessageHandler<RefrescaTokenDelegatingHandler>();
 builder.Services.AddHttpClient<PerfilClientService>(httpClient => { httpClient.BaseAddress = new Uri(UrlWebAPI!); })

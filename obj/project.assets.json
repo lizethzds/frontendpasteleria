@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lizet\\.nuget\\packages\\": {}
+    "C:\\Users\\brand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj",
+      "projectUniqueName": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj",
       "projectName": "frontendpasteleria",
-      "projectPath": "C:\\codigo\\proyecto\\frontendpasteleria\\frontendpasteleria.csproj",
-      "packagesPath": "C:\\Users\\lizet\\.nuget\\packages\\",
-      "outputPath": "C:\\codigo\\proyecto\\frontendpasteleria\\obj\\",
+      "projectPath": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\frontendpasteleria.csproj",
+      "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lizet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

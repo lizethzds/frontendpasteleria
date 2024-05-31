@@ -36,7 +36,7 @@ public class AuthController(AuthClientService auth) : Controller
                         new(ClaimTypes.Role, token.Rol),
                     };
                 auth.IniciaSesionAsync(claims);
-                // Usuario válido, lo envía a la lista de Peliculas
+                // Usuario válido, lo envía a la lista de Peliculas//cambiar
                 return RedirectToAction("Index", "Peliculas");
             }
             catch (Exception)
