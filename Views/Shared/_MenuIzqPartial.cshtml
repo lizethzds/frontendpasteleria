@@ -4,7 +4,7 @@
     @if (User.Identity?.IsAuthenticated == true)
     {
         <a class="nav-link" asp-controller="Home" asp-action="Index">Inicio</a>
-        <a class="nav-link" asp-controller="Peliculas" asp-action="Index">Películas</a>
+        <a class="nav-link" asp-controller="Productos" asp-action="Index">Productos</a>
         @if (User.FindFirstValue(ClaimTypes.Role) == "Administrador")
         {
             <a class="nav-link" asp-controller="Categorias" asp-action="Index">Categorías</a>

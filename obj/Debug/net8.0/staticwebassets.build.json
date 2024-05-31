@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S4USNR8TD14SbkLWIFYhxkDJczcjWqSRH66VBFKXJrg=",
+  "Hash": "QZfV0fGpJ4kX6IB5C/KJC2B+LiJtaaCo1AoMgg/sJ+k=",
   "Source": "frontendpasteleria",
   "BasePath": "_content/frontendpasteleria",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "frontendpasteleria\\wwwroot",
       "Source": "frontendpasteleria",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\guest.css",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\css\\guest.css",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "css/guest.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\guest.css"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\site.css",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\css\\site.css",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\favicon.ico",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\favicon.ico",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\fondo.jpg",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\images\\fondo.jpg",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "images/fondo.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fondo.jpg"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\images\\logo.png",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\cambio_tema.js",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\cambio_tema.js",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "js/cambio_tema.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cambio_tema.js"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\pelicula_portada.js",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\pelicula_portada.js",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "js/pelicula_portada.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pelicula_portada.js"
     },
     {
-      "Identity": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\portada.js",
+      "Identity": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\portada.js",
       "SourceId": "frontendpasteleria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\",
+      "ContentRoot": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\",
       "BasePath": "_content/frontendpasteleria",
       "RelativePath": "js/portada.js",
       "AssetKind": "All",

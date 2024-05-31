@@ -37,7 +37,7 @@ public class AuthController(AuthClientService auth) : Controller
                     };
                 auth.IniciaSesionAsync(claims);
                 // Usuario válido, lo envía a la lista de Peliculas//cambiar
-                return RedirectToAction("Index", "Peliculas");
+                return RedirectToAction("Index", "Productos");
             }
             catch (Exception)
             {
