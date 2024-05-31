@@ -96,7 +96,7 @@ public class ArchivosController(ArchivosClientService archivos, IConfiguration c
         return View();
     }
 
-    [HttpPut]
+    [HttpPost]
     public async Task<IActionResult> EditarAsync(int id, Upload itemToEdit)
     {
         if (id != itemToEdit.ArchivoId) return NotFound();
@@ -151,7 +151,7 @@ public class ArchivosController(ArchivosClientService archivos, IConfiguration c
         return View(itemToDelete);
     }
 
-    [HttpDelete]
+    [HttpPost]
     public async Task<IActionResult> Eliminar(int id)
     {
         ViewBag.Url = configuration["UrlWebAPI"];

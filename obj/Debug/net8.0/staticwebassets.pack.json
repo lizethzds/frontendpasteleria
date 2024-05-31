@@ -1,35 +1,39 @@
 {
   "Files": [
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\css\\guest.css",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\guest.css",
       "PackagePath": "staticwebassets\\css\\guest.css"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\images\\fondo.jpg",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\fondo.jpg",
       "PackagePath": "staticwebassets\\images\\fondo.jpg"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\cambio_tema.js",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\images\\netlogo.jpg",
+      "PackagePath": "staticwebassets\\images\\netlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\cambio_tema.js",
       "PackagePath": "staticwebassets\\js\\cambio_tema.js"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\pelicula_portada.js",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\pelicula_portada.js",
       "PackagePath": "staticwebassets\\js\\pelicula_portada.js"
     },
     {
-      "Id": "C:\\codigo\\proyecto\\frontendpasteleria\\wwwroot\\js\\portada.js",
+      "Id": "C:\\Users\\brand\\OneDrive\\Documentos\\frontendpasteleria\\wwwroot\\js\\portada.js",
       "PackagePath": "staticwebassets\\js\\portada.js"
     },
     {
