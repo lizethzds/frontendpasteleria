@@ -44,7 +44,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Home/AccessDenied";
         options.LoginPath = "/Auth";
         options.SlidingExpiration = true;
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
     });
 
 var app = builder.Build();
